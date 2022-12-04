@@ -9,11 +9,11 @@ spec:
   project: production
   source:
     path: kustomize/overlays/production
-    repoURL: https://github.com/vfarcic/argo-combined-app
+    repoURL: https://github.com/kejalsuthar/argo-combined-app
     targetRevision: HEAD
     kustomize:
       images:
-      - vfarcic/argo-combined-app:latest
+      - kejalsuthar/argo-combined-app:latest
   destination:
     server: https://5e4c3dc0-6928-4611-8827-ba81cdd36bb9.k8s.ondigitalocean.com
     namespace: production

@@ -11,13 +11,13 @@ spec:
       targetPort: 12000
   github:
     argo-combined-app:
-      owner: vfarcic
+      owner: kejalsuthar
       repository: argo-combined-app
       webhook:
         endpoint: /argo-combined-app
         port: "12000"
         method: POST
-        url: http://acme.com
+        url: http://myapp.tktesting.tech
       events:
         - "*"
       apiToken:
@@ -48,4 +48,4 @@ spec:
            name: github-eventsource-svc
            port:
              number: 12000
-    host: acme.com
+    host: tktesting.tech

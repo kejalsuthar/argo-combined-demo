@@ -16,7 +16,7 @@ spec:
         server: 
           ingress:
             hosts:
-              - acme.com
+              - tktesting.tech
             enabled: true
             ingressClassName: nginx
         controller:

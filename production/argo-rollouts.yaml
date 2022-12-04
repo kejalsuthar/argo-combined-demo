@@ -9,7 +9,7 @@ spec:
   project: production
   source:
     path: argo-rollouts/base
-    repoURL: https://github.com/vfarcic/argo-combined-demo
+    repoURL: https://github.com/kejalsuthar/argo-combined-demo
     targetRevision: HEAD
   destination:
     server: https://5e4c3dc0-6928-4611-8827-ba81cdd36bb9.k8s.ondigitalocean.com
