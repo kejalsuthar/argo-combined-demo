@@ -8,7 +8,7 @@ metadata:
     alb.ingress.kubernetes.io/ssl-passthrough: "true"
     nginx.ingress.kubernetes.io/force-ssl-redirect: "false"
     nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
-    cert-manager.io/cluster-issuer: nameOfClusterIssuer
+    cert-manager.io/cluster-issuer: letsencrypt-prod
 spec:
   rules:
   - http:
