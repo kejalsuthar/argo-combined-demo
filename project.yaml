@@ -13,7 +13,7 @@ spec:
   - '*'
   destinations:
   - namespace: '*'
-    server: https://5e4c3dc0-6928-4611-8827-ba81cdd36bb9.k8s.ondigitalocean.com
+    server: https://0cf74905-f1a4-4ea6-8674-1651b9abe17b.k8s.ondigitalocean.com
   clusterResourceWhitelist:
   - group: '*'
     kind: '*'
@@ -36,7 +36,7 @@ spec:
   - '*'
   destinations:
   - namespace: '*'
-    server: https://5e4c3dc0-6928-4611-8827-ba81cdd36bb9.k8s.ondigitalocean.com
+    server: https://0cf74905-f1a4-4ea6-8674-1651b9abe17b.k8s.ondigitalocean.com
   clusterResourceWhitelist:
   - group: '*'
     kind: '*'
