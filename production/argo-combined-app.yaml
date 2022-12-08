@@ -8,12 +8,11 @@ metadata:
 spec:
   project: production
   source:
-    path: kustomize/overlays/production
+    path: production
     repoURL: https://github.com/kejalsuthar/argo-combined-app
     targetRevision: HEAD
-    kustomize:
-      images:
-      - kejalsuthar/argo-combined-app:latest
+    images:
+    - kejalsuthar/argo-combined-app:latest
   destination:
     server: https://0cf74905-f1a4-4ea6-8674-1651b9abe17b.k8s.ondigitalocean.com
     namespace: production
